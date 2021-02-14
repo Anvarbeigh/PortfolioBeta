@@ -1,0 +1,22 @@
+body {
+	background: gold;
+}
+p.header {
+	font-size: 48pt;
+	text-align: center;
+	font-family: Brush Script MT;
+}
+.main-body {
+	text-align: center;
+	width: 75%;
+	font-size: 25pt;
+	color: black;
+	font-family: Courier New;
+}
+img {
+	position: absolute;
+	top: 9em;
+	left: 10px;
+	width: 20%;
+	height: auto;
+}
