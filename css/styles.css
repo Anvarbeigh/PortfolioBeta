@@ -18,9 +18,7 @@ img.background {
   opacity: 1;
 }
 p.header {
-	position: absolute;
-	left: 550px;
-	top: -20px;
+	position: fixed;
 	font-size: 48pt;
 	text-align: center;
 	font-family: Brush Script MT;
