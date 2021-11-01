@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anvarbek</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+        @font-face {
+            font-family: 'Intro';
+            src: local('Intro Bold Caps'), local('Intro-Bold-Caps'),
+                url('Intro-Bold-Caps.woff2') format('woff2'),
+                url('Intro-Bold-Caps.woff') format('woff'),
+                url('Intro-Bold-Caps.ttf') format('truetype');
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .a {
+            color: #edf5e1;
+            background-color: #5cdb95;
+            color: #379683;
+            color: #05386b;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Intro;
+            background-color: #affc41;
+        }
+
+        .both1 {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+
+        }
+
+        .left1 {
+            width: 50%;
+        }
+
+        .right1 {
+            background-color: #f4fec1;
+            width: 50%;
+        }
+
+        #left1part {
+
+            font-family: 'Poppins';
+            text-transform: uppercase;
+            color: #f4fec1;
+            font-size: 1.5vw;
+            padding-left: 4vw;
+            padding-top: 20vh;
+        }
+
+        #left1partText {
+            background-color: #29bf12;
+            padding-left: 1vw;
+            padding-right: 1vw;
+        }
+
+        #left2part {
+            font-family: 'Poppins';
+            text-transform: uppercase;
+            padding-left: 4vw;
+            color: #05386b;
+            font-size: 6vw;
+            margin: 0;
+        }
+
+        #myPhoto {
+            display: block;
+            padding-top: 8vh;
+            margin-left: auto;
+            margin-right: auto;
+            height: 51vw;
+
+        }
+
+        #button1, #button2 {
+            margin-top: 2vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            padding-top: 1vw;
+            padding-bottom: 1vw;
+            font-size: 1.2vw;
+            border-radius: 0.2vw;
+            font-family: 'Poppins';
+            text-transform: uppercase;
+            border: 0;
+            transition-duration: 1s;
+        }
+        #button1
+        {
+            margin-left: 4vw;
+            background-color: #1dd3b0;
+            color: #f4fec1;
+        }
+        #button2
+        {
+            margin-left: 1vw;
+            background-color: #f4fec1;
+            color: #05386b;
+        }
+
+        #button1:hover {
+            background-color: #05386b;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        #button2:hover
+        {
+            background-color: #b2ff9e;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- First page 2 div blocks Text and image-->
+    <div class="both1">
+        <!-- First Left Side of div-->
+        <div class="left1">
+            <p id="left1part">
+                <span id="left1partText">
+                    Game Developer & Programmer
+                </span>
+            </p>
+            <p id="left2part">
+                I'm Anvarbek<br>
+                Jakbaraliev
+            </p>
+            <div>
+                <button id="button1" onclick= "window.location.href = 'projects.html';">
+                    my projects
+                </button>
+                
+                <button id="button2" form="2">
+                    contact me
+                </button>
+            </div>
+        </div>
+        <!-- Second DIV Right Side 100vh-->
+        <div class="right1">
+            <img src="me1.png" alt="MyPhoto" id="myPhoto">
+        </div>
+    </div>
+
+    <!-- END OF FIRS 100 VH'S AND OTHER STARTING-->
+
+
+    <!-- 2 Half of web document-->
+
+
+
+
+
+</body>
