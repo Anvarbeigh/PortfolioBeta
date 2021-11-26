@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+        @font-face {
+            font-family: 'Intro';
+            src: local('Intro Bold Caps'), local('Intro-Bold-Caps'),
+                url('Intro-Bold-Caps.woff2') format('woff2'),
+                url('Intro-Bold-Caps.woff') format('woff'),
+                url('Intro-Bold-Caps.ttf') format('truetype');
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .a {
+            color: #edf5e1;
+            background-color: #5cdb95;
+            color: #379683;
+            color: #05386b;
+        }
+
+
+        /* MAIN */
+        body {
+            background-color: #f4fec1;
+            padding: 0;
+            margin: 0;
+        }
+
+
+        /* My Projects */
+        .my_projects {
+            background-color: #affc41;
+            width: 100vw;
+            height: 7vw;
+            text-align: center;
+            padding-top: 1vw;
+        }
+
+        h1 {
+            display: inline;
+            font-family: Poppins;
+            font-size: 4vw;
+            color: #05386b;
+        }
+
+        /*  Unity */
+
+        .unity_logo {
+            width: 20vw;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 2vw;
+        }
+
+
+        /* Car Project photo and text */
+        .container_car_photo_and_text {
+            display: flex;
+            margin-top: 5vw;
+        }
+
+        /* --- left side of car Panel (just image) -- */
+        .car1
+        {
+            width: 50%;
+        }
+        /* --- right side of car (panel word and button) -- */
+        .car2
+        {
+            width: 50%;
+        }
+        .car_photo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40vw;
+            border-radius: 15px;
+        }
+
+        .car_text {
+            text-transform: uppercase;
+            display: inline-block;
+            font-family: Poppins;
+            text-align: center;
+            font-size: 3vw;
+            margin: 0;
+        }
+
+        .car_play_button
+        {
+            width: 30vw;
+            height: 10vw;
+
+            color: #05386b;
+            background-color: #affc41;
+
+            border: 0;
+            border-radius: 20px;
+
+            font-size: 5vw;
+            font-family: poppins;
+            text-transform: uppercase;
+            margin-top: 8vw;
+            transition-duration: 1s;
+        }
+       .car_play_button:hover {
+            background-color: #05386b;
+            color: #affc41;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- My Projects Heading-->
+    <div class="my_projects">
+        <h1>
+            MY PROJECTS
+        </h1>
+    </div>
+
+
+    <!-- Unity -->
+
+    <div>
+        <img src="unity_logo.png" alt="UnityLogo" class="unity_logo">
+        <div class="container_car_photo_and_text">
+            <div class="car1">
+                <img src="car.png" alt="CarGamePhoto" class="car_photo">
+            </div>
+            <div class="car2">
+                <p class="car_text">
+                    Simple Car Simulator
+                </p>
+                <br>
+                <button class="car_play_button" onclick= "window.location.href = 'https://anvarbeigh.github.io/Car/beta_1/';">
+                    play!
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
